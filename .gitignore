@@ -9,12 +9,15 @@ env/
 *.db
 *.sqlite
 *.sqlite3
-*.pickle
 
 # Python junk
 __pycache__/
 *.pyc
 .env
+
+# Pickle files
+*.pickle
+*.pkl
 
 # Binary files
 *.bin
