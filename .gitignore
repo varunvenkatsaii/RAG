@@ -1,0 +1,21 @@
+cat >> .gitignore << 'EOF'
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Python junk
+__pycache__/
+*.pyc
+.env
+
+# Binary files
+*.bin
+bin/
+EOF
